@@ -103,4 +103,5 @@ O principal objetivo deste desafio foi consolidar conhecimentos de desenvolvimen
 ## 👨‍💻 Autor
 
 Desenvolvido por **Igor Gabriel Antunes da Silva**.
+<br>
 [LinkedIn](https://www.linkedin.com/in/igorgbiel/) • [GitHub](https://github.com/ChronosShelby)
