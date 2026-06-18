@@ -34,6 +34,8 @@ O projeto utiliza a API pública:
 * Exibição do número da Pokédex formatado.
 * Exibição do nome do Pokémon.
 * Exibição dos tipos de cada Pokémon.
+* Exibição detalha de cada Pokémon ao clicar no Pokémon.
+* Filtro de buscas dos Pokémon pelo nome ou numero
 * Imagens obtidas diretamente da PokéAPI.
 * Paginação para carregamento de novos Pokémon.
 * Layout responsivo para dispositivos móveis e desktops.

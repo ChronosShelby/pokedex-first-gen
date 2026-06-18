@@ -19,19 +19,39 @@
 </head>
 
 <body>
-    <section class="content">
-        <h1 class="title">Pokedex</h1>
+<section class="content">
 
-        <ol id="pokemonList" class="pokemons">
-            <!-- ..... Pokemons here ..... -->
-        </ol>
-        
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
+    <h1 class="title">Pokedex</h1>
+
+    <div class="filters">
+
+        <input
+            type="text"
+            id="searchPokemon"
+            placeholder="Buscar por nome ou número..."
+        >
+
+    </div>
+
+    <ol id="pokemonList" class="pokemons">
+        <!-- ..... Pokemons here ..... -->
+    </ol>
+
+    <div class="pagination">
+        <button id="loadMoreButton" type="button">
+            Load More
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div id="pokemonModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div id="pokemonDetails"></div>
         </div>
-    </section>
+    </div>
+
+</section>
     
     <!-- My JavaScript -->
     <script src="asserts/js/pokemon-model.js"></script>
